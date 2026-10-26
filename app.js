@@ -70,9 +70,9 @@ const editTask = function () {
 
 const deleteTask = function () {
   const listItem = this.parentNode;
-  const ul = listItem.parentNode;
+  const taskListContainer = listItem.parentNode;
 
-  ul.removeChild(listItem);
+  taskListContainer.removeChild(listItem);
 };
 
 const toggleTaskStatus = function () {
