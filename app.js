@@ -85,7 +85,6 @@ const toggleTaskStatus = function () {
   targetContainer.appendChild(listItem);
 };
 
-addButton.onclick = addTask;
 addButton.addEventListener("click", addTask);
 
 const bindTaskEvents = function (taskListItem) {
