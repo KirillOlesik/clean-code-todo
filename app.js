@@ -85,11 +85,8 @@ const toggleTaskStatus = function () {
   targetContainer.appendChild(listItem);
 };
 
-const ajaxRequest = function () {};
-
 addButton.onclick = addTask;
 addButton.addEventListener("click", addTask);
-addButton.addEventListener("click", ajaxRequest);
 
 const bindTaskEvents = function (taskListItem) {
   const checkBox = taskListItem.querySelector("input[type=checkbox]");
